@@ -9,7 +9,7 @@
 | **[Um CV por Vaga](https://github.com/NicolasKCost/um-cv-por-vaga)** · [umcvporvaga.pt](https://umcvporvaga.pt) | SaaS que adapta o CV a cada vaga com IA, sem inventar dados, e envia a candidatura | PHP, JavaScript, MySQL, Gemini API, Google OAuth, Gmail API, Stripe |
 | **[MovAI-Fit](https://github.com/NicolasKCost/movai-fit)** · [movaifit.me](https://movaifit.me) | PWA de treino com planos gerados por IA e área para personal trainers | PHP, JavaScript, Groq API, PWA |
 | **[Portal de Boletos](https://github.com/NicolasKCost/portal-boletos)** | Plugin WordPress para uma clínica de saúde: importação de PDFs, envio por e-mail e área do cliente | PHP, WordPress, Composer |
-| **Zágora** · [zagora.space](https://zagora.space) | Bot de finanças pessoais no Telegram com IA e testes automáticos | PHP, MySQL, Telegram Bot API |
+| **[Zágora](https://github.com/NicolasKCost/zagora)** · [zagora.space](https://zagora.space) | Bot de finanças pessoais no Telegram com IA e testes automáticos | PHP, MySQL, Telegram Bot API |
 
 ### 🛠️ Stack
 

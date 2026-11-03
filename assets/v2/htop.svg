@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <style>
+    text { font-family: Consolas, 'SFMono-Regular', 'DejaVu Sans Mono', 'Liberation Mono', 'Courier New', monospace; }
+    .fade { opacity: 0; animation: fade .5s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    .blink { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .pulse { animation: pulse 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.75); } }
+    .m { transform-box: fill-box; transform-origin: left; animation: m ease-in-out infinite alternate; } @keyframes v0 { 0% { transform: scaleX(0.8500000000000001); } 35% { transform: scaleX(0.9500000000000001); } 60% { transform: scaleX(0.90); } 100% { transform: scaleX(0.92); } } @keyframes v1 { 0% { transform: scaleX(0.78); } 35% { transform: scaleX(0.88); } 60% { transform: scaleX(0.83); } 100% { transform: scaleX(0.85); } } @keyframes v2 { 0% { transform: scaleX(0.71); } 35% { transform: scaleX(0.81); } 60% { transform: scaleX(0.76); } 100% { transform: scaleX(0.78); } } @keyframes v3 { 0% { transform: scaleX(0.73); } 35% { transform: scaleX(0.8300000000000001); } 60% { transform: scaleX(0.78); } 100% { transform: scaleX(0.80); } } @keyframes v4 { 0% { transform: scaleX(0.6799999999999999); } 35% { transform: scaleX(0.78); } 60% { transform: scaleX(0.73); } 100% { transform: scaleX(0.75); } } @keyframes v5 { 0% { transform: scaleX(0.53); } 35% { transform: scaleX(0.63); } 60% { transform: scaleX(0.58); } 100% { transform: scaleX(0.60); } } @keyframes v6 { 0% { transform: scaleX(0.5800000000000001); } 35% { transform: scaleX(0.68); } 60% { transform: scaleX(0.63); } 100% { transform: scaleX(0.65); } } @keyframes v7 { 0% { transform: scaleX(0.73); } 35% { transform: scaleX(0.8300000000000001); } 60% { transform: scaleX(0.78); } 100% { transform: scaleX(0.80); } } .graf { animation: graf 12s linear infinite; } @keyframes graf { to { transform: translateX(-840px); } } .cpu { animation: blink 1.3s step-end infinite; }
+  </style>
+  <defs>
+    <linearGradient id="hg" x1="0" x2="1"><stop offset="0" stop-color="#00ff9c"/><stop offset=".7" stop-color="#e3b341"/><stop offset="1" stop-color="#ff5f56"/></linearGradient>
+    <linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00ff9c" stop-opacity=".35"/><stop offset="1" stop-color="#00ff9c" stop-opacity="0"/></linearGradient>
+    <clipPath id="gc"><rect x="30" y="210" width="840" height="70"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="898" height="498" rx="10" fill="#0a0e14" stroke="#1f3b2d" stroke-width="2"/>
+  <path d="M1 11 a10 10 0 0 1 10 -10 H889 a10 10 0 0 1 10 10 V34 H1 Z" fill="#161b22"/>
+  <line x1="1" y1="34" x2="899" y2="34" stroke="#1f3b2d"/>
+  <circle cx="20" cy="17.5" r="6" fill="#ff5f56"/><circle cx="40" cy="17.5" r="6" fill="#ffbd2e"/><circle cx="60" cy="17.5" r="6" fill="#27c93f"/>
+  <text x="450.0" y="22" text-anchor="middle" font-size="13" fill="#7d8590">htop — competências em tempo real</text>
+  <text x="30" y="78" font-size="14" fill="#56d4ff">1</text>
+    <text x="48" y="78" font-size="14" fill="#e6edf3">php</text>
+    <text x="150" y="78" font-size="14" fill="#7d8590">[</text>
+    <g clip-path="url(#m0)"><text x="162" y="78" font-size="14" fill="url(#hg)" textLength="258.4" lengthAdjust="spacingAndGlyphs">||||||||||||||||||||||||||||||||||</text></g>
+    <clipPath id="m0"><rect class="m" style="animation-name:v0;animation-duration:6.82s" x="162" y="64" width="258.4" height="18"/></clipPath>
+    <text x="424.4" y="78" font-size="14" fill="#7d8590">]</text><text x="460" y="78" font-size="14" fill="#56d4ff">2</text>
+    <text x="478" y="78" font-size="14" fill="#e6edf3">javascript</text>
+    <text x="580" y="78" font-size="14" fill="#7d8590">[</text>
+    <g clip-path="url(#m1)"><text x="592" y="78" font-size="14" fill="url(#hg)" textLength="258.4" lengthAdjust="spacingAndGlyphs">||||||||||||||||||||||||||||||||||</text></g>
+    <clipPath id="m1"><rect class="m" style="animation-name:v1;animation-duration:7.24s" x="592" y="64" width="258.4" height="18"/></clipPath>
+    <text x="854.4" y="78" font-size="14" fill="#7d8590">]</text><text x="30" y="104" font-size="14" fill="#56d4ff">3</text>
+    <text x="48" y="104" font-size="14" fill="#e6edf3">mysql</text>
+    <text x="150" y="104" font-size="14" fill="#7d8590">[</text>
+    <g clip-path="url(#m2)"><text x="162" y="104" font-size="14" fill="url(#hg)" textLength="258.4" lengthAdjust="spacingAndGlyphs">||||||||||||||||||||||||||||||||||</text></g>
+    <clipPath id="m2"><rect class="m" style="animation-name:v2;animation-duration:5.34s" x="162" y="90" width="258.4" height="18"/></clipPath>
+    <text x="424.4" y="104" font-size="14" fill="#7d8590">]</text><text x="460" y="104" font-size="14" fill="#56d4ff">4</text>
+    <text x="478" y="104" font-size="14" fill="#e6edf3">html/css</text>
+    <text x="580" y="104" font-size="14" fill="#7d8590">[</text>
+    <g clip-path="url(#m3)"><text x="592" y="104" font-size="14" fill="url(#hg)" textLength="258.4" lengthAdjust="spacingAndGlyphs">||||||||||||||||||||||||||||||||||</text></g>
+    <clipPath id="m3"><rect class="m" style="animation-name:v3;animation-duration:7.46s" x="592" y="90" width="258.4" height="18"/></clipPath>
+    <text x="854.4" y="104" font-size="14" fill="#7d8590">]</text><text x="30" y="130" font-size="14" fill="#56d4ff">5</text>
+    <text x="48" y="130" font-size="14" fill="#e6edf3">apis rest</text>
+    <text x="150" y="130" font-size="14" fill="#7d8590">[</text>
+    <g clip-path="url(#m4)"><text x="162" y="130" font-size="14" fill="url(#hg)" textLength="258.4" lengthAdjust="spacingAndGlyphs">||||||||||||||||||||||||||||||||||</text></g>
+    <clipPath id="m4"><rect class="m" style="animation-name:v4;animation-duration:7.89s" x="162" y="116" width="258.4" height="18"/></clipPath>
+    <text x="424.4" y="130" font-size="14" fill="#7d8590">]</text><text x="460" y="130" font-size="14" fill="#56d4ff">6</text>
+    <text x="478" y="130" font-size="14" fill="#e6edf3">wordpress</text>
+    <text x="580" y="130" font-size="14" fill="#7d8590">[</text>
+    <g clip-path="url(#m5)"><text x="592" y="130" font-size="14" fill="url(#hg)" textLength="258.4" lengthAdjust="spacingAndGlyphs">||||||||||||||||||||||||||||||||||</text></g>
+    <clipPath id="m5"><rect class="m" style="animation-name:v5;animation-duration:5.32s" x="592" y="116" width="258.4" height="18"/></clipPath>
+    <text x="854.4" y="130" font-size="14" fill="#7d8590">]</text><text x="30" y="156" font-size="14" fill="#56d4ff">7</text>
+    <text x="48" y="156" font-size="14" fill="#e6edf3">linux/ssh</text>
+    <text x="150" y="156" font-size="14" fill="#7d8590">[</text>
+    <g clip-path="url(#m6)"><text x="162" y="156" font-size="14" fill="url(#hg)" textLength="258.4" lengthAdjust="spacingAndGlyphs">||||||||||||||||||||||||||||||||||</text></g>
+    <clipPath id="m6"><rect class="m" style="animation-name:v6;animation-duration:5.08s" x="162" y="142" width="258.4" height="18"/></clipPath>
+    <text x="424.4" y="156" font-size="14" fill="#7d8590">]</text><text x="460" y="156" font-size="14" fill="#56d4ff">8</text>
+    <text x="478" y="156" font-size="14" fill="#e6edf3">git</text>
+    <text x="580" y="156" font-size="14" fill="#7d8590">[</text>
+    <g clip-path="url(#m7)"><text x="592" y="156" font-size="14" fill="url(#hg)" textLength="258.4" lengthAdjust="spacingAndGlyphs">||||||||||||||||||||||||||||||||||</text></g>
+    <clipPath id="m7"><rect class="m" style="animation-name:v7;animation-duration:5.94s" x="592" y="142" width="258.4" height="18"/></clipPath>
+    <text x="854.4" y="156" font-size="14" fill="#7d8590">]</text>
+  <text x="30" y="200" font-size="13" fill="#7d8590">atividade (commits · deploys · café)</text>
+  <rect x="30" y="210" width="840" height="70" fill="#0b1510" stroke="#1f3b2d"/>
+  <g stroke="#123524"><line x1="30" y1="227.5" x2="870" y2="227.5"/><line x1="30" y1="245.0" x2="870" y2="245.0"/><line x1="30" y1="262.5" x2="870" y2="262.5"/></g>
+  <g clip-path="url(#gc)"><g class="graf">
+    <polygon points="30,280 30,243.5 42,225.1 54,224.6 66,227.2 78,238.2 90,230.2 102,221.7 114,222.0 126,225.0 138,241.4 150,256.7 162,262.5 174,250.0 186,250.6 198,262.5 210,272.8 222,275.1 234,262.7 246,247.9 258,234.6 270,236.2 282,246.1 294,234.8 306,224.9 318,212.2 330,214.1 342,228.9 354,239.7 366,242.0 378,244.2 390,238.6 402,250.0 414,265.9 426,276.1 438,270.0 450,261.8 462,247.9 474,248.7 486,259.6 498,250.5 510,242.4 522,224.2 534,215.7 546,223.2 558,236.2 570,232.9 582,233.6 594,229.1 606,230.5 618,250.7 630,261.6 642,267.1 654,264.2 666,260.0 678,254.3 690,269.5 702,266.8 714,258.9 726,239.2 738,227.0 750,226.5 762,233.9 774,233.0 786,231.4 798,220.7 810,216.6 822,232.4 834,246.7 846,256.4 858,254.0 870,250.7 882,251.7 894,267.0 906,273.5 918,274.5 930,260.8 942,248.1 954,243.2 966,247.5 978,245.1 990,234.2 1002,224.5 1014,216.0 1026,219.0 1038,230.4 1050,237.8 1062,241.3 1074,239.2 1086,243.6 1098,256.2 1110,271.4 1122,277.5 1134,271.8 1146,256.3 1158,254.2 1170,252.6 1182,259.5 1194,251.2 1206,239.6 1218,218.8 1230,219.2 1242,223.8 1254,233.6 1266,233.1 1278,226.4 1290,227.1 1302,239.1 1314,249.3 1326,265.2 1338,262.0 1350,258.6 1362,259.0 1374,261.0 1386,274.1 1398,272.0 1410,254.9 1422,240.2 1434,226.1 1446,236.0 1458,235.3 1470,233.4 1482,221.0 1494,217.7 1506,219.5 1518,235.1 1530,249.3 1542,249.8 1554,244.8 1566,249.4 1578,255.3 1590,269.0 1602,274.4 1614,265.7 1626,257.5 1638,247.5 1650,243.9 1662,252.1 1674,248.8 1686,236.5 1698,222.7 1710,214.8 1710,280" fill="url(#ga)"/>
+    <polyline points="30,243.5 42,225.1 54,224.6 66,227.2 78,238.2 90,230.2 102,221.7 114,222.0 126,225.0 138,241.4 150,256.7 162,262.5 174,250.0 186,250.6 198,262.5 210,272.8 222,275.1 234,262.7 246,247.9 258,234.6 270,236.2 282,246.1 294,234.8 306,224.9 318,212.2 330,214.1 342,228.9 354,239.7 366,242.0 378,244.2 390,238.6 402,250.0 414,265.9 426,276.1 438,270.0 450,261.8 462,247.9 474,248.7 486,259.6 498,250.5 510,242.4 522,224.2 534,215.7 546,223.2 558,236.2 570,232.9 582,233.6 594,229.1 606,230.5 618,250.7 630,261.6 642,267.1 654,264.2 666,260.0 678,254.3 690,269.5 702,266.8 714,258.9 726,239.2 738,227.0 750,226.5 762,233.9 774,233.0 786,231.4 798,220.7 810,216.6 822,232.4 834,246.7 846,256.4 858,254.0 870,250.7 882,251.7 894,267.0 906,273.5 918,274.5 930,260.8 942,248.1 954,243.2 966,247.5 978,245.1 990,234.2 1002,224.5 1014,216.0 1026,219.0 1038,230.4 1050,237.8 1062,241.3 1074,239.2 1086,243.6 1098,256.2 1110,271.4 1122,277.5 1134,271.8 1146,256.3 1158,254.2 1170,252.6 1182,259.5 1194,251.2 1206,239.6 1218,218.8 1230,219.2 1242,223.8 1254,233.6 1266,233.1 1278,226.4 1290,227.1 1302,239.1 1314,249.3 1326,265.2 1338,262.0 1350,258.6 1362,259.0 1374,261.0 1386,274.1 1398,272.0 1410,254.9 1422,240.2 1434,226.1 1446,236.0 1458,235.3 1470,233.4 1482,221.0 1494,217.7 1506,219.5 1518,235.1 1530,249.3 1542,249.8 1554,244.8 1566,249.4 1578,255.3 1590,269.0 1602,274.4 1614,265.7 1626,257.5 1638,247.5 1650,243.9 1662,252.1 1674,248.8 1686,236.5 1698,222.7 1710,214.8" fill="none" stroke="#00ff9c" stroke-width="2"/>
+  </g></g>
+  <rect x="20" y="309" width="860" height="22" fill="#0e7a4d"/><text x="30" y="326" font-size="13.5" fill="#ffffff" xml:space="preserve">  PID USER      S  CPU%  COMANDO</text><text x="30" y="350" font-size="13.5" fill="#00ff9c" xml:space="preserve"> 1337 nicolas   R  <tspan class="cpu"> 71.0</tspan>  procura_vaga_dev</text><text x="30" y="350" font-size="13.5" fill="#00ff9c" xml:space="preserve" class="cpu" style="animation-delay:.65s;opacity:0"></text><text x="30" y="372" font-size="13.5" fill="#e6edf3" xml:space="preserve"> 2048 nicolas   S  <tspan class="cpu">  0.8</tspan>  um-cv-por-vaga</text><text x="30" y="372" font-size="13.5" fill="#e6edf3" xml:space="preserve" class="cpu" style="animation-delay:.65s;opacity:0"></text><text x="30" y="394" font-size="13.5" fill="#e6edf3" xml:space="preserve"> 2049 nicolas   S  <tspan class="cpu">  2.2</tspan>  movai-fit</text><text x="30" y="394" font-size="13.5" fill="#e6edf3" xml:space="preserve" class="cpu" style="animation-delay:.65s;opacity:0"></text><text x="30" y="416" font-size="13.5" fill="#e6edf3" xml:space="preserve"> 2050 nicolas   S  <tspan class="cpu">  2.1</tspan>  zagora-bot</text><text x="30" y="416" font-size="13.5" fill="#e6edf3" xml:space="preserve" class="cpu" style="animation-delay:.65s;opacity:0"></text><text x="30" y="438" font-size="13.5" fill="#00ff9c" xml:space="preserve"> 4096 nicolas   R  <tspan class="cpu"> 61.3</tspan>  aprender --sempre</text><text x="30" y="438" font-size="13.5" fill="#00ff9c" xml:space="preserve" class="cpu" style="animation-delay:.65s;opacity:0"></text>
+  <text x="30" y="484" font-size="13" fill="#7d8590" xml:space="preserve">Tarefas: <tspan fill="#e6edf3">5</tspan>, <tspan fill="#00ff9c">2 a correr</tspan>   Carga: <tspan fill="#e6edf3">alta</tspan>   Uptime: <tspan fill="#e6edf3">desde 2011 a resolver problemas</tspan></text>
+  <defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity=".035"/></pattern></defs>
+  <rect x="2" y="35" width="896" height="463" fill="url(#scan)" pointer-events="none"/>
+</svg>

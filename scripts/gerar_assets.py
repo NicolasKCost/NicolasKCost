@@ -427,8 +427,7 @@ def rodape():
   <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="10" fill="{BG}" stroke="{BORDER}" stroke-width="2"/>
   {prompt(24, 32, "exit", 0.3)}
   <text class="fade" style="animation-delay:1s" x="24" y="56" font-size="14" fill="{GREY}">logout · obrigado pela visita <tspan fill="{GREEN}">:)</tspan></text>
-  <text class="fade" style="animation-delay:1.5s" x="24" y="76" font-size="13" fill="#4b5563">[processo terminado com código 0]</text>
-  <g class="fade" style="animation-delay:1.8s"><rect class="blink" x="290" y="64" width="8" height="15" fill="{GREEN}"/></g>
+  <text class="fade" style="animation-delay:1.5s" x="24" y="76" font-size="13" fill="#4b5563">[processo terminado com código 0] <tspan class="blink" fill="{GREEN}">█</tspan></text>
 </svg>"""
     write("rodape.svg", svg)
 

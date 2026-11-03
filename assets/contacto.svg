@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150">
+  <style>
+    text { font-family: Consolas, 'SFMono-Regular', 'DejaVu Sans Mono', 'Liberation Mono', 'Courier New', monospace; }
+    .fade { opacity: 0; animation: fade .5s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    .blink { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .pulse { animation: pulse 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.75); } }
+    @keyframes typeonce { to { clip-path: inset(0 0 0 0); } }
+  </style>
+  <rect x="1" y="1" width="898" height="148" rx="10" fill="#0a0e14" stroke="#1f3b2d" stroke-width="2"/>
+  <path d="M1 11 a10 10 0 0 1 10 -10 H889 a10 10 0 0 1 10 10 V34 H1 Z" fill="#161b22"/>
+  <line x1="1" y1="34" x2="899" y2="34" stroke="#1f3b2d"/>
+  <circle cx="20" cy="17.5" r="6" fill="#ff5f56"/><circle cx="40" cy="17.5" r="6" fill="#ffbd2e"/><circle cx="60" cy="17.5" r="6" fill="#27c93f"/>
+  <text x="450.0" y="22" text-anchor="middle" font-size="13" fill="#7d8590">~/contacto — ssh</text>
+  <g>
+    <text x="30" y="66" font-size="15" fill="#00ff9c" class="fade" style="animation-delay:0.2s" textLength="153.0" lengthAdjust="spacingAndGlyphs">nicolas@lisboa:~$</text>
+    <text x="192.0" y="66" font-size="15" fill="#e6edf3" textLength="189.0" lengthAdjust="spacingAndGlyphs"
+      style="clip-path: inset(0 100% 0 0); animation: typeonce 0.945s steps(21) 0.5s forwards">ssh visitante@nicolas</text>
+  </g>
+  <text class="fade" style="animation-delay:1.5s" x="30" y="92" font-size="14" fill="#7d8590">A estabelecer ligação segura... <tspan fill="#00ff9c">[ OK ]</tspan></text>
+  <text class="fade" style="animation-delay:2.1s" x="30" y="116" font-size="14" fill="#e6edf3">Ligação aberta. Tens uma vaga, projeto ou ideia? Escolhe um canal:</text>
+  <g class="fade" style="animation-delay:2.6s"><rect class="blink" x="30" y="126" width="9" height="16" fill="#00ff9c"/></g>
+  <defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity=".035"/></pattern></defs>
+  <rect x="2" y="35" width="896" height="113" fill="url(#scan)" pointer-events="none"/>
+</svg>

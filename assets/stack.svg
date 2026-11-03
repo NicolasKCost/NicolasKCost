@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 414" width="900" height="414">
+  <style>
+    text { font-family: Consolas, 'SFMono-Regular', 'DejaVu Sans Mono', 'Liberation Mono', 'Courier New', monospace; }
+    .fade { opacity: 0; animation: fade .5s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    .blink { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .pulse { animation: pulse 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.75); } }
+    @keyframes typeonce { to { clip-path: inset(0 0 0 0); } }
+    .grow { transform: scaleX(0); transform-box: fill-box; transform-origin: left; animation: grow .5s cubic-bezier(.2,.8,.2,1) forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+  </style>
+  <defs><linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#0b6b43"/><stop offset="1" stop-color="#00ff9c"/></linearGradient></defs>
+  <rect x="1" y="1" width="898" height="412" rx="10" fill="#0a0e14" stroke="#1f3b2d" stroke-width="2"/>
+  <path d="M1 11 a10 10 0 0 1 10 -10 H889 a10 10 0 0 1 10 10 V34 H1 Z" fill="#161b22"/>
+  <line x1="1" y1="34" x2="899" y2="34" stroke="#1f3b2d"/>
+  <circle cx="20" cy="17.5" r="6" fill="#ff5f56"/><circle cx="40" cy="17.5" r="6" fill="#ffbd2e"/><circle cx="60" cy="17.5" r="6" fill="#27c93f"/>
+  <text x="450.0" y="22" text-anchor="middle" font-size="13" fill="#7d8590">~/stack — instalação de competências</text>
+  <g>
+    <text x="30" y="64" font-size="15" fill="#00ff9c" class="fade" style="animation-delay:0.2s" textLength="153.0" lengthAdjust="spacingAndGlyphs">nicolas@lisboa:~$</text>
+    <text x="192.0" y="64" font-size="15" fill="#e6edf3" textLength="270.0" lengthAdjust="spacingAndGlyphs"
+      style="clip-path: inset(0 100% 0 0); animation: typeonce 1.3499999999999999s steps(30) 0.5s forwards">sudo apt install nicolas-stack</text>
+  </g>
+  <text class="fade" style="animation-delay:1.3s" x="30" y="88" font-size="14" fill="#7d8590">A ler listas de pacotes... Pronto</text>
+  <g class="fade" style="animation-delay:1.60s">
+    <text x="30" y="110" font-size="15" fill="#56d4ff">php</text>
+    <rect x="160" y="98" width="220" height="14" rx="2" fill="#132019" stroke="#1f3b2d"/>
+    <rect class="grow" style="animation-delay:1.70s" x="162" y="100" width="216" height="10" rx="1" fill="url(#bar)"/>
+    <text class="fade" style="animation-delay:2.15s" x="396" y="110" font-size="14" fill="#00ff9c">✓</text>
+    <text class="fade" style="animation-delay:2.15s" x="420" y="110" font-size="14" fill="#7d8590">back-end, APIs e integrações</text>
+  </g>
+  <g class="fade" style="animation-delay:2.05s">
+    <text x="30" y="138" font-size="15" fill="#56d4ff">javascript</text>
+    <rect x="160" y="126" width="220" height="14" rx="2" fill="#132019" stroke="#1f3b2d"/>
+    <rect class="grow" style="animation-delay:2.15s" x="162" y="128" width="216" height="10" rx="1" fill="url(#bar)"/>
+    <text class="fade" style="animation-delay:2.60s" x="396" y="138" font-size="14" fill="#00ff9c">✓</text>
+    <text class="fade" style="animation-delay:2.60s" x="420" y="138" font-size="14" fill="#7d8590">front-end e interatividade</text>
+  </g>
+  <g class="fade" style="animation-delay:2.50s">
+    <text x="30" y="166" font-size="15" fill="#56d4ff">mysql</text>
+    <rect x="160" y="154" width="220" height="14" rx="2" fill="#132019" stroke="#1f3b2d"/>
+    <rect class="grow" style="animation-delay:2.60s" x="162" y="156" width="216" height="10" rx="1" fill="url(#bar)"/>
+    <text class="fade" style="animation-delay:3.05s" x="396" y="166" font-size="14" fill="#00ff9c">✓</text>
+    <text class="fade" style="animation-delay:3.05s" x="420" y="166" font-size="14" fill="#7d8590">modelação e consultas SQL</text>
+  </g>
+  <g class="fade" style="animation-delay:2.95s">
+    <text x="30" y="194" font-size="15" fill="#56d4ff">html-css</text>
+    <rect x="160" y="182" width="220" height="14" rx="2" fill="#132019" stroke="#1f3b2d"/>
+    <rect class="grow" style="animation-delay:3.05s" x="162" y="184" width="216" height="10" rx="1" fill="url(#bar)"/>
+    <text class="fade" style="animation-delay:3.50s" x="396" y="194" font-size="14" fill="#00ff9c">✓</text>
+    <text class="fade" style="animation-delay:3.50s" x="420" y="194" font-size="14" fill="#7d8590">interfaces responsivas</text>
+  </g>
+  <g class="fade" style="animation-delay:3.40s">
+    <text x="30" y="222" font-size="15" fill="#56d4ff">api-rest</text>
+    <rect x="160" y="210" width="220" height="14" rx="2" fill="#132019" stroke="#1f3b2d"/>
+    <rect class="grow" style="animation-delay:3.50s" x="162" y="212" width="216" height="10" rx="1" fill="url(#bar)"/>
+    <text class="fade" style="animation-delay:3.95s" x="396" y="222" font-size="14" fill="#00ff9c">✓</text>
+    <text class="fade" style="animation-delay:3.95s" x="420" y="222" font-size="14" fill="#7d8590">Gemini · Groq · Stripe · Google · Telegram</text>
+  </g>
+  <g class="fade" style="animation-delay:3.85s">
+    <text x="30" y="250" font-size="15" fill="#56d4ff">wordpress</text>
+    <rect x="160" y="238" width="220" height="14" rx="2" fill="#132019" stroke="#1f3b2d"/>
+    <rect class="grow" style="animation-delay:3.95s" x="162" y="240" width="216" height="10" rx="1" fill="url(#bar)"/>
+    <text class="fade" style="animation-delay:4.40s" x="396" y="250" font-size="14" fill="#00ff9c">✓</text>
+    <text class="fade" style="animation-delay:4.40s" x="420" y="250" font-size="14" fill="#7d8590">plugins à medida</text>
+  </g>
+  <g class="fade" style="animation-delay:4.30s">
+    <text x="30" y="278" font-size="15" fill="#56d4ff">linux-ssh</text>
+    <rect x="160" y="266" width="220" height="14" rx="2" fill="#132019" stroke="#1f3b2d"/>
+    <rect class="grow" style="animation-delay:4.40s" x="162" y="268" width="216" height="10" rx="1" fill="url(#bar)"/>
+    <text class="fade" style="animation-delay:4.85s" x="396" y="278" font-size="14" fill="#00ff9c">✓</text>
+    <text class="fade" style="animation-delay:4.85s" x="420" y="278" font-size="14" fill="#7d8590">servidores, deploy e cron</text>
+  </g>
+  <g class="fade" style="animation-delay:4.75s">
+    <text x="30" y="306" font-size="15" fill="#56d4ff">git</text>
+    <rect x="160" y="294" width="220" height="14" rx="2" fill="#132019" stroke="#1f3b2d"/>
+    <rect class="grow" style="animation-delay:4.85s" x="162" y="296" width="216" height="10" rx="1" fill="url(#bar)"/>
+    <text class="fade" style="animation-delay:5.30s" x="396" y="306" font-size="14" fill="#00ff9c">✓</text>
+    <text class="fade" style="animation-delay:5.30s" x="420" y="306" font-size="14" fill="#7d8590">versionamento e GitHub</text>
+  </g>
+  <text class="fade" style="animation-delay:5.80s" x="30" y="348" font-size="14" fill="#e6edf3">8 pacotes instalados, 0 erros. <tspan fill="#00ff9c">Pronto para produção.</tspan></text>
+  <g class="fade" style="animation-delay:6.20s">
+    <text x="30" y="378" font-size="15" fill="#00ff9c">nicolas@lisboa:~$</text>
+    <rect class="blink" x="182" y="365" width="9" height="17" fill="#00ff9c"/>
+  </g>
+  <defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity=".035"/></pattern></defs>
+  <rect x="2" y="35" width="896" height="377" fill="url(#scan)" pointer-events="none"/>
+</svg>

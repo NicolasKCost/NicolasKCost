@@ -8,6 +8,7 @@
   <a href="#projetos"><img src="./assets/v2/menu-projetos.svg" alt="projetos" height="40"/></a>
   <a href="#carreira"><img src="./assets/v2/menu-carreira.svg" alt="carreira" height="40"/></a>
   <a href="#contacto"><img src="./assets/v2/menu-contacto.svg" alt="contacto" height="40"/></a>
+  <a href="https://nicolaskcost.github.io"><img src="./assets/v2/menu-portfolio.svg" alt="portfólio interativo" height="40"/></a>
 </div>
 
 <a id="sobre"></a>
@@ -76,6 +77,7 @@ Login com Google, pagamentos com Stripe, IA com a API do Gemini. · [repositóri
   <img src="./assets/contacto.svg" alt="Contacto" width="100%"/>
   <br/>
   <a href="https://www.linkedin.com/in/nicolas-kaiky"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" width="210"/></a>
+  <a href="https://nicolaskcost.github.io"><img src="./assets/btn-portfolio.svg" alt="Portfólio" width="210"/></a>
   <a href="https://umcvporvaga.pt"><img src="./assets/btn-site.svg" alt="umcvporvaga.pt" width="210"/></a>
   <br/><br/>
   <a href="#sobre"><img src="./assets/rodape.svg" alt="exit — obrigado pela visita" width="100%"/></a>
